@@ -1,0 +1,14 @@
+Options -Multiviews // untuk menghidari kesalaha atau ambigu di dalam folder public
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule 
+
+^ -> membaca apapun yang di url mulai dari awal (dari ablic)
+. -> ambil apapun 
+* -> ambil karakter satu persatu
+$ -> sampai selesai
+
+[L] -> kalo ada rule yang terpenuhi maka jangan jalakan rule yang lain

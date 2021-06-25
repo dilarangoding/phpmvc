@@ -1,0 +1,16 @@
+MVC 
+
+Model - View - Controller
+
+"Pola arsitektur pada perancagnan perangkat lunak berorientasi objek."
+
+Tujuan MVC
+"memisahkan antara tampilan, data, dan proses"
+
+WHY MVC?
+
+- Organisasi dan Sturktur kode yang baik
+- Pemisahan logic dan tampilan 
+- Memudahkan perawatan KODE 
+- Implementasi Konsep OOP yang sudah dipelajari
+- Digunakan oleh banyak Web Application Framework
